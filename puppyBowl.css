@@ -1,0 +1,32 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    background-color: #d2691e;
+    padding: 2rem;
+    display: flex;
+}
+nav a{
+    color: black;
+    padding: 3rem;
+}
+.selected{
+    border: solid 3px black;
+}
+
+#information > div{
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    padding: 2rem;
+    color: white;
+}
+
+@media (max-width: 500px){
+    nav{
+        flex-direction: column;
+    }
+}
